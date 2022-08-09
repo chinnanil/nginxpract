@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import GridNow from './components/GridNow';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-   hi
-      </header>
+  <GridNow />
     </div>
   );
 }

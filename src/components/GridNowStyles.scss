@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    grid-template-rows: 100px 1fr ;
+    border-color: black;
+}
+
+.a{
+    border-color: blue($color: blue);
+}
