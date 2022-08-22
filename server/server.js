@@ -11,7 +11,9 @@ if(process.env.NODE_ENV === 'production'){
     })
 }
 
-
+app.get("/",(req,res,next)=>{
+res.send("hihihi ")
+})
 
 
 const PORT = process.env.PORT || 3000;
